@@ -25,10 +25,13 @@ public class App {
 
     for (int i = 1; i <= activityQnt; i++) {
       System.out.println("Digite o nome da atividade " + i + ":");
-      String name = scanner.nextLine();
+      String activityName = scanner.nextLine();
 
       System.out.println("Digite o peso da atividade " + i + ":");
       int activityWeight = Integer.parseInt(scanner.nextLine());
+
+      System.out.println("Digite a nota obtida para " + activityName + ":");
+      int activityGrade = Integer.parseInt(scanner.nextLine());
     }
 
     scanner.close();
