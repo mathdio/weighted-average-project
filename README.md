@@ -31,13 +31,13 @@ mvn install
 ```
 
 ### 🏃‍♀ Running the application
-You must execute the App.java file in `src/main/java/com/trybe/java/regraprogressao/` folder by clicking the run button in your IDE or the following commands in terminal.
+You must execute the App.java file in `src/main/java/com/trybe/java/regraprogressao/` folder by clicking the run button in your IDE or running the following commands in project's root terminal.
 To compile the code, run:
 ```
-javac App.java
+javac -d . **/*.java
 ```
 Next, to run the program, run in terminal:
 ```
-java App
+java com.trybe.java.regraprogressao.App
 ```
 Then, the application will start automatically in your terminal.
