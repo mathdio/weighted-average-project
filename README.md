@@ -1,5 +1,5 @@
 # 💯 Weighted Average System for Grades
-A weighted average system application as a [Trybe](https://www.betrybe.com) Project.
+A weighted average system application developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
 This application is a Java-built system to be used to register evaluation grades and calculate the weighted average.
